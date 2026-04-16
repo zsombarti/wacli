@@ -53,3 +53,8 @@
 - Diagnostics: `wacli doctor` for store path, lock status/info, auth/connection check, and FTS status.
 - CLI UX: human-readable output by default with `--json`, global `--store`/`--timeout`, plus `wacli version`.
 - Storage: default `~/.wacli`, lock file for single-instance safety, SQLite DB with FTS5, WhatsApp session store, and media directory.
+
+<!-- Personal fork notes:
+     - I changed the default store path to ~/Documents/wacli for easier Finder access on macOS.
+     - Tracking upstream; plan to cherry-pick any 0.5.0 message search improvements.
+-->
