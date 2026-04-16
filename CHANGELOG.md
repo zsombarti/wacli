@@ -58,4 +58,5 @@
      - I changed the default store path to ~/Documents/wacli for easier Finder access on macOS.
      - Tracking upstream; plan to cherry-pick any 0.5.0 message search improvements.
      - I increased the default --timeout from 30s to 60s to avoid premature disconnects on slow connections.
+     - I set the default message list limit from 20 to 50; I'd rather scroll than re-run with --limit.
 -->
