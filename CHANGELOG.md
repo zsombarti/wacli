@@ -60,4 +60,5 @@
      - I increased the default --timeout from 30s to 60s to avoid premature disconnects on slow connections.
      - I set the default message list limit from 20 to 50; I'd rather scroll than re-run with --limit.
      - I added a shell alias `wac` -> `wacli` in my dotfiles for faster typing.
+     - I set the default history backfill request count from 50 to 100; groups with long histories need more to be useful.
 -->
